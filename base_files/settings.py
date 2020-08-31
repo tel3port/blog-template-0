@@ -35,6 +35,7 @@ DATA_UPLOAD_MAX_NUMBER_FIELDS = 10000
 INSTALLED_APPS = [
     'blog',
     'gallery',
+    'lander',
     'django.contrib.sitemaps',
     'django.contrib.admin',
     'django.contrib.auth',

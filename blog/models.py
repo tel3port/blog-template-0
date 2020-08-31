@@ -10,6 +10,7 @@ STATUS = ((0, "Draft"), (1, "Publish"))
 class Entry(models.Model):
     entry_title = models.CharField(max_length=1000)
     entry_text = models.TextField(max_length=50000)
+    entry_tags = models.TextField(max_length=50000)
     site_sub_id = models.CharField(max_length=1000)
     image = models.FileField(upload_to="media", blank=True)
     entry_date = models.DateTimeField(auto_now_add=True)
