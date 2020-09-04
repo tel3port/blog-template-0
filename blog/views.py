@@ -45,19 +45,18 @@ def get_random_conj():
 
 
 with open(f"{os.getcwd()}/blog/dict/kw_list.txt") as kw_file:
-    global kws
-    kws = [line.strip() for line in kw_file]
+    keyword_list = [line.strip() for line in kw_file]
 
-random_kw = kws[randint(0, len(kws) - 1)]
+random_kw = keyword_list[randint(0, len(keyword_list) - 1)]
 
 tags = ''
 
 for _ in range(10):
-    tags += kws[randint(0, len(kws) - 1)] + ','
+    tags += keyword_list[randint(0, len(keyword_list) - 1)] + ','
 
 desc = "site is about "
 for _ in range(10):
-    desc += kws[randint(0, len(kws) - 1)] + ' and '
+    desc += keyword_list[randint(0, len(keyword_list) - 1)] + ' and '
 
 
 def random_image():
@@ -164,8 +163,8 @@ def divide_string(mystring):
     for ix in range(mid_index):
         str_1 += word_list[ix] + " "
 
-    for iy in range(mid_index,str_len):
-        str_2 += word_list[iy]+ " "
+    for iy in range(mid_index, str_len):
+        str_2 += word_list[iy] + " "
 
     return str_1, str_2
 
@@ -183,12 +182,12 @@ def single_post(request, slug):
 
     my_sentences = my_string.split('.')
     sentence_num = len(my_sentences)
-    kw_str = my_sentences[sentence_num-1]
+    kw_str = my_sentences[sentence_num - 1]
 
     kw_list = kw_str.split(",")
-    rand_kws = ""
+    rand_keyword_list = ""
     for _ in range(8):
-        rand_kws += kw_list[randint(0, len(kw_list) - 1)] + ','
+        rand_keyword_list += kw_list[randint(0, len(kw_list) - 1)] + ','
 
     str_1 = divide_string(my_string)[0]
     str_2 = divide_string(my_string)[1]
@@ -239,7 +238,7 @@ class EntryView(DetailView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['rand_im'] = random_image()
-        context['tags'] = [kws[randint(0, len(kws) - 1)], kws[randint(0, len(kws) - 1)], kws[randint(0, len(kws) - 1)],
-                           kws[randint(0, len(kws) - 1)], kws[randint(0, len(kws) - 1)]]
+        context['tags'] = [keyword_list[randint(0, len(keyword_list) - 1)], keyword_list[randint(0, len(keyword_list) - 1)], keyword_list[randint(0, len(keyword_list) - 1)],
+                           keyword_list[randint(0, len(keyword_list) - 1)], keyword_list[randint(0, len(keyword_list) - 1)]]
 
         return context
