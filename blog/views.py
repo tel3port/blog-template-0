@@ -10,16 +10,16 @@ from .models import Entry
 
 def get_random_cta_image():
     cta_image_list = [
-        '/media/media/watch.gif',
-        '/media/media/a.gif',
-        '/media/media/b.gif',
-        '/media/media/c.gif',
-        '/media/media/d.gif',
-        '/media/media/e.gif',
-        '/media/media/f.gif',
-        '/media/media/g.gif',
-        '/media/media/h.gif',
-        '/media/media/i.gif',
+        'watch.gif',
+        'a.gif',
+        'b.gif',
+        'c.gif',
+        'd.gif',
+        'e.gif',
+        'f.gif',
+        'g.gif',
+        'h.gif',
+        'i.gif',
     ]
     return cta_image_list[randint(0, len(cta_image_list) - 1)]
 
@@ -61,7 +61,7 @@ for _ in range(10):
 
 
 def random_image():
-    path = r"./media/media/"
+    path = r"./media/"
     rand_img = random.choice([
         x for x in os.listdir(path)
         if os.path.isfile(os.path.join(path, x))

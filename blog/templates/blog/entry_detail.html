@@ -62,19 +62,19 @@
           <div class="card-body">
             <h1 class="card-title">{{ title }}</h1>
               <a href="https://afflat3d1.com/lnk.asp?o=9075&c=918277&a=242672&k=FF87DECAA57BB0FAE70615CF5958FFE0&l=8504&s1={{ sub_id }}" target="_blank">
-                   <img class="card-img-top mx-auto d-block" src="{{ rand_cta_im }}" alt="{{ tags }}" >
+                   <img class="card-img-top mx-auto d-block" src="/media/{{ rand_cta_im }}" alt="{{ tags }}" >
               </a>
 
             <p class="card-text">{{ text_1|safe }}</p>
             <br>
             <a href="https://afflat3d1.com/lnk.asp?o=9075&c=918277&a=242672&k=FF87DECAA57BB0FAE70615CF5958FFE0&l=8504&s1={{ sub_id }}" target="_blank">
-                   <img class="card-img-top mx-auto d-block" src="/media/media/{{ rand_im_1 }}" alt="{{ tags }}" >
+                   <img class="card-img-top mx-auto d-block" src="/media/{{ rand_im_1 }}" alt="{{ tags }}" >
             </a>
             <br>
             <p class="card-text">{{ text_2|safe }}</p>
             <br>
             <a href="https://afflat3d1.com/lnk.asp?o=9075&c=918277&a=242672&k=FF87DECAA57BB0FAE70615CF5958FFE0&l=8504&s1={{ sub_id }}" target="_blank">
-                   <img class="card-img-top mx-auto d-block" src="/media/media/{{ rand_im_2 }}" alt="{{ tags }}" >
+                   <img class="card-img-top mx-auto d-block" src="/media/{{ rand_im_2 }}" alt="{{ tags }}" >
             </a>
           </div>
           <div class="card-footer text-muted">
@@ -94,7 +94,7 @@
              {% for single_thing in sidebar_things %}
 
               <li class="collection-item avatar" href="{{ single_thing.2 }}">
-                <img src="/media/media/{{ single_thing.1}}" alt="{{ tags }}" class="circle" >
+                <img src="/media/{{ single_thing.1}}" alt="{{ tags }}" class="circle" >
                 <a href="{{ single_thing.2  }}">{{ single_thing.0 }}  <br>
 
                 </a>

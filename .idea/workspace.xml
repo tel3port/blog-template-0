@@ -2,9 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da9e2cc6-3fdf-4f87-a359-325595f9ad9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/blog-template-0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog-template-0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_files/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_files/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/entry_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/entry_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/templates/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/templates/gallery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/EaTDABOX0AAl5_N.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/EaTDABOX0AAl5_N.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/N17C_0SK5O02hI6QcV1wBRC9eEe9TDbaik1d-62P1Fs.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/N17C_0SK5O02hI6QcV1wBRC9eEe9TDbaik1d-62P1Fs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/a-guest-23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/a-guest-23.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/a-guest-4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/a-guest-4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/a-guest-42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/a-guest-42.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/a.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/a.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/a47f5972cf64dd5766a06026784a4c3f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/a47f5972cf64dd5766a06026784a4c3f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/afro.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/afro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/b.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/b.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/bchisepvuh451.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/bchisepvuh451.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/bd4f15340c71a7ac159714709038711c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/bd4f15340c71a7ac159714709038711c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/bring-it-june-not-actually-114.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/bring-it-june-not-actually-114.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/bring-it-june-not-actually-3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/bring-it-june-not-actually-3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/bye-july-35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/bye-july-35.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/c.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/c.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/c8ebqmf09ef51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/c8ebqmf09ef51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/c9fe59efdc1973a5875041e1979fecf5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/c9fe59efdc1973a5875041e1979fecf5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/caaf6fa0bbd47dc933a3caad0d4d1e68.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/caaf6fa0bbd47dc933a3caad0d4d1e68.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/cb69c341d78d1c0ffa0d5c665751fc32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/cb69c341d78d1c0ffa0d5c665751fc32.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/congrats-to-the-astronauts-who-left-earth-tweet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/congrats-to-the-astronauts-who-left-earth-tweet.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/db969d2d249d41a1e257730598fa778d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/db969d2d249d41a1e257730598fa778d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/domino1.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/domino1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/e.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/e.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/f.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/f.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/g.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/g.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/groundhog-may-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/groundhog-may-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/groundhog-may-93.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/groundhog-may-93.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/h.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/h.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/h6bzblr0emf51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/h6bzblr0emf51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/half-way-there-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/half-way-there-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/half-way-there-20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/half-way-there-20.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/i.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/i.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/july-talk-21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/july-talk-21.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/july-talk-3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/july-talk-3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/july-talk-59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/july-talk-59.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/july-talk-6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/july-talk-6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/july-talk-79.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/july-talk-79.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/june-buggin-100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/june-buggin-100.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/june-buggin-35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/june-buggin-35.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/june-buggin-58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/june-buggin-58.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/lu9sx69yoy251.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/lu9sx69yoy251.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/m5ueptv7f6d51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/m5ueptv7f6d51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/no-windows-27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/no-windows-27.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/no-windows-30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/no-windows-30.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/no-windows-33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/no-windows-33.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/no-windows-36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/no-windows-36.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/no-windows-57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/no-windows-57.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/no-windows-6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/no-windows-6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/q3y7wn01eif51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/q3y7wn01eif51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/qe8gbxgcjdf51.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/qe8gbxgcjdf51.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/shirk-reporting-for-duty-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/shirk-reporting-for-duty-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/shirk-reporting-for-duty-32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/shirk-reporting-for-duty-32.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/shortest-longest-year-ever-tweet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/shortest-longest-year-ever-tweet.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/terrible-funny-maps-219-5f228c54481fd__700.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/terrible-funny-maps-219-5f228c54481fd__700.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/uqgn49magbf51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/uqgn49magbf51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/vj1qa3x1hbf51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/vj1qa3x1hbf51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/vy8gqbk722g51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/vy8gqbk722g51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/watch.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/watch.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/x1cry91fcef51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/x1cry91fcef51.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +93,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lander/static/assets/img" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -39,16 +103,17 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+      <recent name="$PROJECT_DIR$/base_files" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lander/static/assets/img" />
       <recent name="$PROJECT_DIR$/lander" />
       <recent name="$PROJECT_DIR$/gallery" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/blog" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/base_files" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
