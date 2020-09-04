@@ -27,6 +27,7 @@ SECRET_KEY = 'd+j3(=p4e!zrf#s2=1@4ojh-*-j&#mlkh6pu5l8q)8h7a+4d_4'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+                 '127.0.0.1',
                  'capterra-reviews.us',
                  'www.capterra-reviews.us',
                  'ecommerce.capterra-reviews.us'
