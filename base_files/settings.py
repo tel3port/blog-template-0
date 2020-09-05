@@ -22,15 +22,16 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'd+j3(=p4e!zrf#s2=1@4ojh-*-j&#mlkh6pu5l8q)8h7a+4d_4'
+
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
                  '127.0.0.1',
                  'capterra-reviews.us',
                  'www.capterra-reviews.us',
-                 'ecommerce.capterra-reviews.us',
-                 'www.ecommerce.capterra-reviews.us',
+                 'ecommerce.capterra-reviews.us'
+                 'www.ecommerce.capterra-reviews.us'
 ]
 
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 10000
@@ -91,7 +92,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'capterra_pg_0',
         'USER': 'capterra_pg_user_0',
-        'PASSWORD': '3port:AjTdJsetif3Q5dn@git',
+        'PASSWORD': 'pg_user_0',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }

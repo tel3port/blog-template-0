@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da9e2cc6-3fdf-4f87-a359-325595f9ad9c" name="Default Changelist" comment="" />
+    <list default="true" id="da9e2cc6-3fdf-4f87-a359-325595f9ad9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/base_files/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_files/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
