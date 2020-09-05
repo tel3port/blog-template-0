@@ -92,7 +92,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'capterra_pg_0',
         'USER': 'capterra_pg_user_0',
-        'PASSWORD': 'pg_user_0',
+        'PASSWORD': '3port:AjTdJsetif3Q5dn@git',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
