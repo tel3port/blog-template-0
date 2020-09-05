@@ -140,7 +140,7 @@ def home(request):
     random_anchor = anchor_list[randint(0, len(anchor_list) - 1)]
 
     # try:
-    #     for i in glob.glob("/media/media/*"):
+    #     for i in glob.glob("/media/*"):
     #         os.remove(i)
     #
     # except Exception as we:
@@ -163,7 +163,7 @@ def home(request):
 
 
 def extract_images():
-    path = r"./media/media/"
+    path = r"./media/"
 
     final_info = os.listdir(path)
 
