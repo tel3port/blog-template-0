@@ -139,15 +139,6 @@ def home(request):
 
     random_anchor = anchor_list[randint(0, len(anchor_list) - 1)]
 
-    # try:
-    #     for i in glob.glob("/media/*"):
-    #         os.remove(i)
-    #
-    # except Exception as we:
-    #     print('image_deleter Error occurred ' + str(we))
-    #     print(traceback.format_exc())
-    #     pass
-
     print(f"NUMBER OF IMAGES: {len(image_list)}")
 
     final_postings = []
