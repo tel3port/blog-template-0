@@ -30,8 +30,8 @@ ALLOWED_HOSTS = [
                  '127.0.0.1',
                  'capterra-reviews.us',
                  'www.capterra-reviews.us',
-                 'ecommerce.capterra-reviews.us'
-                 'www.ecommerce.capterra-reviews.us'
+                 'ecommerce.capterra-reviews.us',
+                 'www.ecommerce.capterra-reviews.us',
 ]
 
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 10000
