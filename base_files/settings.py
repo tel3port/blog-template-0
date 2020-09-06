@@ -141,3 +141,4 @@ MEDIA_URL = "/media/"
 # MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 STATIC_ROOT = '/home/capterra/public_html/static'
 MEDIA_ROOT = '/home/capterra/public_html/media'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
