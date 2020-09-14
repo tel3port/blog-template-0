@@ -29,6 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
                  '127.0.0.1',
                  'capterra-reviews.us',
+                 'aaa.aaa',
                  'ecommerce.capterra-reviews.us',
                  'accounting-scam.capterra-reviews.us',
                  'android-scam.capterra-reviews.us',
