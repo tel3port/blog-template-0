@@ -29,15 +29,22 @@ DEBUG = True
 ALLOWED_HOSTS = [
                  '127.0.0.1',
                  'capterra-reviews.us',
-                 'www.capterra-reviews.us',
                  'ecommerce.capterra-reviews.us',
-                 'www.ecommerce.capterra-reviews.us',
                  'accounting-scam.capterra-reviews.us',
                  'android-scam.capterra-reviews.us',
                  'banking-scam.capterra-reviews.us',
                  'car-rental-scam.capterra-reviews.us',
                  'taxation-scam.capterra-reviews.us',
                  'weebly-scam.capterra-reviews.us',
+                 'www.capterra-reviews.us',
+                 'www.ecommerce.capterra-reviews.us',
+                 'www.accounting-scam.capterra-reviews.us',
+                 'www.android-scam.capterra-reviews.us',
+                 'www.banking-scam.capterra-reviews.us',
+                 'www.car-rental-scam.capterra-reviews.us',
+                 'www.taxation-scam.capterra-reviews.us',
+                 'www.weebly-scam.capterra-reviews.us',
+
 ]
 
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 10000
