@@ -29,7 +29,6 @@ DEBUG = True
 ALLOWED_HOSTS = [
                  '127.0.0.1',
                  'capterra-reviews.us',
-                 'asdsasdas.aaa',
                  'ecommerce.capterra-reviews.us',
                  'accounting-scam.capterra-reviews.us',
                  'android-scam.capterra-reviews.us',
@@ -104,8 +103,8 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'capterra_pg_0',
-        'USER': 'capterra_pg_user_0',
+        'NAME': 'capterra_acc_sc',
+        'USER': 'capterra_capt_acc_sc',
         'PASSWORD': '3port:AjTdJsetif3Q5dn@git',
         'HOST': '127.0.0.1',
         'PORT': '5432',
