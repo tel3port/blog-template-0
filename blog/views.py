@@ -51,11 +51,11 @@ random_kw = keyword_list[randint(0, len(keyword_list) - 1)]
 
 tags = ''
 
-for _ in range(10):
+for _ in range(5):
     tags += keyword_list[randint(0, len(keyword_list) - 1)] + ','
 
 desc = "site is about "
-for _ in range(10):
+for _ in range(5):
     desc += keyword_list[randint(0, len(keyword_list) - 1)] + ' and '
 
 

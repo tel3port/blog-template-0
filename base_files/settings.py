@@ -16,7 +16,6 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
@@ -27,23 +26,48 @@ SECRET_KEY = 'd+j3(=p4e!zrf#s2=1@4ojh-*-j&#mlkh6pu5l8q)8h7a+4d_4'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-                 '127.0.0.1',
-                 'capterra-reviews.us',
-                 'ecommerce.capterra-reviews.us',
-                 'accounting-scam.capterra-reviews.us',
-                 'android-scam.capterra-reviews.us',
-                 'banking-scam.capterra-reviews.us',
-                 'car-rental-scam.capterra-reviews.us',
-                 'taxation-scam.capterra-reviews.us',
-                 'weebly-scam.capterra-reviews.us',
-                 'www.capterra-reviews.us',
-                 'www.ecommerce.capterra-reviews.us',
-                 'www.accounting-scam.capterra-reviews.us',
-                 'www.android-scam.capterra-reviews.us',
-                 'www.banking-scam.capterra-reviews.us',
-                 'www.car-rental-scam.capterra-reviews.us',
-                 'www.taxation-scam.capterra-reviews.us',
-                 'www.weebly-scam.capterra-reviews.us',
+    '127.0.0.1',
+    'capterra-reviews.us',
+    "accounting-scam.capterra-reviews.us",
+    "android-scam.capterra-reviews.us",
+    "banking-scam.capterra-reviews.us",
+    "auto-repair-scam.capterra-reviews.us",
+    "bookkeeping-scam.capterra-reviews.us",
+    "car-rental-scam.capterra-reviews.us",
+    "carpet-cleaning-scam.capterra-reviews.us",
+    "catering-scam.capterra-reviews.us",
+    "church-scam.capterra-reviews.us",
+    "dentist-scam.capterra-reviews.us",
+    "distance-learning-scam.capterra-reviews.us",
+    "ecommerce.capterra-reviews.us",
+    "email-scam.capterra-reviews.us",
+    "fitness-scam.capterra-reviews.us",
+    "gaming-scam.capterra-reviews.us",
+    "job-scam.capterra-reviews.us",
+    "marine-scam.capterra-reviews.us",
+    "phone-scam.capterra-reviews.us",
+    "taxation-scam.capterra-reviews.us",
+    "weebly-scam.capterra-reviews.us",
+    "www.accounting-scam.capterra-reviews.us",
+    "www.android-scam.capterra-reviews.us",
+    "www.banking-scam.capterra-reviews.us",
+    "www.auto-repair-scam.capterra-reviews.us",
+    "www.bookkeeping-scam.capterra-reviews.us",
+    "www.car-rental-scam.capterra-reviews.us",
+    "www.carpet-cleaning-scam.capterra-reviews.us",
+    "www.catering-scam.capterra-reviews.us",
+    "www.church-scam.capterra-reviews.us",
+    "www.dentist-scam.capterra-reviews.us",
+    "www.distance-learning-scam.capterra-reviews.us",
+    "www.ecommerce.capterra-reviews.us",
+    "www.email-scam.capterra-reviews.us",
+    "www.fitness-scam.capterra-reviews.us",
+    "www.gaming-scam.capterra-reviews.us",
+    "www.job-scam.capterra-reviews.us",
+    "www.marine-scam.capterra-reviews.us",
+    "www.phone-scam.capterra-reviews.us",
+    "www.taxation-scam.capterra-reviews.us",
+    "www.weebly-scam.capterra-reviews.us",
 
 ]
 
@@ -94,7 +118,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'base_files.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
@@ -110,7 +133,6 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -130,7 +152,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
@@ -144,14 +165,13 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 SITE_ID = 1
 
 STATIC_URL = '/static/'
 MEDIA_URL = "/media/"
-# MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-STATIC_ROOT = '/home/capterra/public_html/static'
-MEDIA_ROOT = '/home/capterra/public_html/media'
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+# STATIC_ROOT = '/home/capterra/public_html/static'
+# MEDIA_ROOT = '/home/capterra/public_html/media'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
