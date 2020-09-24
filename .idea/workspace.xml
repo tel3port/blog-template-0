@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da9e2cc6-3fdf-4f87-a359-325595f9ad9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/header_script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.directory" beforeDir="false" afterPath="$PROJECT_DIR$/.directory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/m.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/m.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_files/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_files/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/dict/kw_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/blog/dict/kw_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/entry_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/entry_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/dict/kw_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/dict/kw_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
